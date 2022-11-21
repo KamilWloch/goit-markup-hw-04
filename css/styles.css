@@ -11,7 +11,7 @@
 body {
     font-family: var(--main-font);
     background-color: var(--white-background);
-    color: var(--grey-text);
+    /* color: var(--grey-text); */
     max-width: 1600px;
     margin: 0px auto;
 }
@@ -28,6 +28,7 @@ body {
     width: 1600px;
     height: 80px;
     border-bottom: 1px solid #ECECEC;
+    padding-top: 0;
 }
 
 .header-content {
@@ -204,8 +205,7 @@ body {
 
 .solutions {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-                rgba(255, 255, 255, 0.1)),
-            url(/goit-markup-hw-04/goit-markup-hw-04/images/background-image.svg);
+                rgba(255, 255, 255, 0.1)), url(/goit-markup-hw-04/images/background-image.svg);
     background-size: cover;
     background-repeat: no-repeat;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -215,11 +215,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 464px;
-    padding-right: 464px;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    gap: 30px;
 }
 
 .title-solutions {
@@ -243,50 +238,67 @@ body {
     background-color: var(--blue-accent);
     border-radius: 4px;
     cursor: pointer;
-    width: 200px;
-    height: 50px;
     font-size: 16px;
     font-weight: 700;
     line-height: 30px;
     text-align: center;
     letter-spacing: 0.06em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 42px;
+    padding-right: 42px;
 }
 
 /* Strengths */
-
-.strengths-list {
-    list-style: none;
+.section-streng {
+    background-color: yellow;
+    width: 1200px;
+    height: 251px;
+    gap: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1170px;
+    align-items: center;
+}
+
+.streng-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    /* width: 1170px;
     height: 101px;
     margin-top: 94px;
     margin-left: 215px;
-    margin-right: 215px;
+    margin-right: 215px; */
 }
 
-.strengths-item {
+.streng-item {
+    background-color: brown;
+    box-sizing: border-box;
     width: 270px;
-    height: 101px;
+    height: 251px;
 
 }
 
-.strengths-title {
+/* .strengths-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--grey-text);
-}
+    color: var(--blue-accent);
+} */
 
 .strengths-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: var(--grey-text);
+    color: var(--grey-text)
 }
 
 h3 {
