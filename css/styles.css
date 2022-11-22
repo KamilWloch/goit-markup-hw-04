@@ -252,8 +252,7 @@ body {
 
 /* Strengths */
 .section-strengths {
-    /* background-color: yellow; */
-    width: 1200px;
+    width: 1170px;
     height: 251px;
     margin-top: 94px;
     margin-bottom: 94px;
@@ -271,7 +270,6 @@ body {
 }
 
 .strengths-item {
-    /* background-color: brown; */
     box-sizing: border-box;
     width: 270px;
     height: 251px;
@@ -312,12 +310,19 @@ body {
 
 /* scope */
 
+.section-scope {
+    width: 1170px;
+    height: 386px;
+    margin: 0px 215px 94px 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0px;
+}
+
 .scope-title {
     width: max-content;
-    height: 42px;
-    margin-top: 94px;
-    margin-left: 624px;
-    margin-right: 624px;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -327,13 +332,11 @@ body {
 }
 
 .scope-list {
+    width: 1170px;
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 50px;
-    margin-left: 215px;
-    margin-right: 215px;
     gap: 30px;
 }
 
