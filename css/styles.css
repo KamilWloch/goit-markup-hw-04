@@ -205,7 +205,7 @@ body {
 
 .solutions {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-                rgba(255, 255, 255, 0.1)), url(/goit-markup-hw-04/images/background-image.svg);
+                rgba(255, 255, 255, 0.1)), url(/images/background-image.svg);
     background-size: cover;
     background-repeat: no-repeat;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
