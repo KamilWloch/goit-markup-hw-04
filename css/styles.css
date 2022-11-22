@@ -285,6 +285,7 @@ body {
     padding-bottom: 10px;
     padding-left: 42px;
     padding-right: 42px;
+    border: none;
 }
 
 /* Strengths */
@@ -498,19 +499,15 @@ body {
 /* PORTFOLIO */
 /* Buttons */
 
-.section-filters {
-    box-sizing: border-box;
-    width: 1600px;
-    height: 182px;
-}
-
 .filters-list {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:center;
     gap: 8px;
-    padding-top: 100px;
+    width: 1600px;
+    margin-top: 94px;
+    margin-bottom: 50px;
 }
 
 .button-filters {
@@ -520,12 +517,10 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     border-radius: 4px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 22px;
-    padding-right: 22px;
-    background-color: #F5F4FA;
+    padding: 6px 22px 6px 22px;
+    background-color: var(--light-grey-background);
     cursor: pointer;
+    border: none;
 }
 
 .button-filters:hover,
@@ -557,20 +552,18 @@ body {
     width: 370px;
     height: 404px;
     flex-basis: calc((100% - 60px)/3);
+    border: 1px solid #EEEEEE;
+}
+
+.portfolio-image {
+    display: block;
 }
 
 .list-item-container {
-    box-sizing: border-box;
-    width: 370px;
-    height: 110px;
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-    padding-left: 24px;
+   padding: 20px 24px 20px 24px;
 }
 
 .list-item-title {
-    width: 322px;
-    height: 36px;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -579,8 +572,6 @@ body {
 }
 
 .list-item-text {
-    width: 322px;
-    height: 30px;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
