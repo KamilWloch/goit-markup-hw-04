@@ -452,13 +452,11 @@ body {
 
 /* our clients */
 .our-clients-section {
-    /* background-color: brown; */
     width: 1600px;
     height: 372px;
     padding: 94px 215px 94px 215px;
 }
 .our-clients {
-    /* background-color: yellow; */
     width: 1170px;
     height: 184px;
 }
@@ -498,7 +496,7 @@ body {
 }
 
 /* PORTFOLIO */
-/* filters */
+/* Buttons */
 
 .section-filters {
     box-sizing: border-box;
