@@ -124,8 +124,7 @@ body {
 
 .header-contact:hover,
 .header-contact:focus,
-.header-contact svg:hover,
-.header-contact svg:focus {
+.header-contact:hover svg {
     color: #2196F3;
     fill: #2196F3;
 }
@@ -495,6 +494,18 @@ body {
 
 .our-clients-icon-logo {
     fill: var(--icon-grey-fill);
+}
+
+.our-clients-icon:hover,
+.our-clients-icon:focus {
+    border: 1px solid var(--blue-accent);
+    cursor: pointer;
+    
+}
+
+.our-clients-icon:hover svg {
+    fill: var(--blue-accent);
+    cursor: pointer;
 }
 
 /* PORTFOLIO */
