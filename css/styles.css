@@ -247,7 +247,7 @@ body {
 /* MAIN PAGE */
 /* button with background */
 
-.solutions {
+.section-solutions {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                 rgba(255, 255, 255, 0.1)), url(/images/background-image.svg);
     background-size: cover;
@@ -474,7 +474,7 @@ body {
 }
 
 /* our clients */
-.our-clients-section {
+.section-clients {
     width: 1600px;
     height: 372px;
     padding: 94px 215px 94px 215px;
