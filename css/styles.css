@@ -547,8 +547,8 @@ body {
     justify-content:center;
     gap: 8px;
     /* width: 1600px;
-    margin-top: 94px;
-    margin-bottom: 50px; */
+    margin-top: 94px; */
+    margin-bottom: 50px;
 }
 
 .button-filters {
@@ -574,6 +574,7 @@ body {
 /* Portfolio */
 .portfolio {
     box-sizing: border-box;
+    background-color: red;
     /* width: 1170px; */
     /* height: 1360px; */
     /* margin-left: 215px;
