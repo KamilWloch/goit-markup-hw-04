@@ -22,13 +22,14 @@ body {
     padding: 0;
 }
 
-/* .section {
+.section {
     padding: 94px 0px;
-} */
+}
 
 .container {
     width: 1200px;
     margin: 0 auto;
+    padding: 0px 15px;
 }
 
 /* header */
@@ -147,11 +148,17 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    height: 600px;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 106px 0px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .title-solutions {
@@ -180,9 +187,94 @@ body {
     line-height: 30px;
     text-align: center;
     letter-spacing: 0.06em;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 42px;
-    padding-right: 42px;
+    padding: 10px 42px;   
     border: none;
+    margin-top: 30px;
+}
+
+/* Strengths */
+
+/* .section-strengths {
+    width: 1170px;
+    height: 251px;
+    margin-top: 94px;
+    margin-bottom: 94px;
+    margin-left: 215px;
+    margin-right: 215px;
+} */
+
+.strengths-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    gap: 30px;
+}
+
+.strengths-item {
+    box-sizing: border-box;
+    width: 270px;
+    height: 251px;
+}
+
+.strengths-icon-group {
+    background-color: var(--light-grey-background);
+    box-sizing: border-box;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    padding: 25px 100px 25px 100px;
+    margin-bottom: 30px;
+
+}
+
+.strengths-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--black-title-text);
+    margin-bottom: 10px;
+}
+
+.strengths-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--grey-text);
+}
+
+/* scope */
+
+.scope {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scope-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align:center;
+    letter-spacing: 0.03em;
+    color: var(--black-title-text);
+    margin-bottom: 50px;
+}
+
+.scope-list {
+    /* width: 1170px; */
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
 }
