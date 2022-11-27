@@ -546,9 +546,9 @@ body {
     flex-direction: row;
     justify-content:center;
     gap: 8px;
-    width: 1600px;
+    /* width: 1600px;
     margin-top: 94px;
-    margin-bottom: 50px;
+    margin-bottom: 50px; */
 }
 
 .button-filters {
@@ -572,12 +572,12 @@ body {
 }
 
 /* Portfolio */
-.section-portfolio {
+.portfolio {
     box-sizing: border-box;
-    width: 1170px;
-    height: 1360px;
-    margin-left: 215px;
-    margin-right: 215px;
+    /* width: 1170px; */
+    /* height: 1360px; */
+    /* margin-left: 215px;
+    margin-right: 215px; */
 }
 
 .section-list {
